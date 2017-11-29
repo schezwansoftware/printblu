@@ -16,33 +16,31 @@
         </div>
     </div>
 </div>
-
-<!-- <div class="header-2">
+<div class="header-2">
     <div class="container-fluid">
         <div class="second-box">
             <div class="row">
                 <div class="col-md-3">
                     <div class="logo-site">
-                        <img src="content/images/Sunrise_logo_orignal.jpg" alt="logo-hepc" title="logo" class="img-responsive center-block">
+                      <a href="#">
+                        <img src="content/images/printblu_logo.png"  alt="logo-printblu" title="logo" class="img-responsive center-block">
+                      </a>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="text-main text-center">
-                        <p class="font12">Department of Industries & Commerce, Haryana<br>
-                            Haryana Enterprises Promotion Center</p>
-                    </div>
-                </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-2">
-                    <div class="second-logo">
-                        <img src="content/images/logo-gov.jpg" class="img-responsive center-block" alt="logo-gov" title="logogov">
+
+                <div class="col-md-4 col-md-offset-3" style="margin-top: 20px;">
+                    <div class="logo-site">
+                      <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                      </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
- --><nav class="navbar navbar-inverse" style="margin-bottom: 5px;background:#337ab7;">
+<nav class="navbar navbar-inverse" style="margin-bottom: 5px;background:#337ab7;">
     <div class="container">
         <div class="row">
             <button type="button" class="navbar-toggle" style="background:#337ab7;" ng-click="vm.toggleNavbar()" style="background: #2d7fef">
@@ -60,7 +58,7 @@
                         </a>
                     </li>
 
-                                    <li ng-class="{active: vm.$state.includes('entity')}" ng-switch-when="true" uib-dropdown class="dropdown pointer">
+                <li has-any-authority="ROLE_ADMIN" ng-class="{active: vm.$state.includes('entity')}" ng-switch-when="true" uib-dropdown class="dropdown pointer">
                     <a class="nav-bar1" uib-dropdown-toggle href="" id="entity-menu">
                         <span>
                             <span class="glyphicon glyphicon-th-list"></span>
@@ -74,6 +72,13 @@
                         <!-- jhipster-needle-add-entity-to-menu - JHipster will add entities to the menu here -->
                     </ul>
                 </li>
+                                    <li has-any-authority="ROLE_USER" ui-sref-active="active">
+                        <a class="nav-bar1" ui-sref="visitingcards" ng-click="vm.collapseNavbar()">
+                            <!--<span class="glyphicon glyphicon-home"></span>-->
+                            <span class="hidden-sm" data-translate="">Visiting Cards</span>
+                        </a>
+                    </li>
+
                 <li ng-class="{active: vm.$state.includes('account')}" uib-dropdown class="dropdown pointer">
                     <a class="nav-bar1" uib-dropdown-toggle href="" id="account-menu">
                         <span>
@@ -165,6 +170,12 @@
                         <!-- jhipster-needle-add-element-to-admin-menu - JHipster will add entities to the admin menu here -->
                     </ul>
                 </li>
+                <li ui-sref-active="active">
+                        <a class="nav-bar1" ui-sref="contact" ng-click="vm.collapseNavbar()">
+                            <span class="glyphicon glyphicon-headphones"></span>
+                            <span class="hidden-sm" data-translate="">Contact Us</span>
+                        </a>
+                    </li>
                 <li ui-sref-active="active" uib-dropdown class="dropdown pointer" ng-controller="JhiLanguageController as languageVm">
                     <a class="nav-bar1" uib-dropdown-toggle href="" ng-if="languageVm.languages.length > 1">
                         <span>
