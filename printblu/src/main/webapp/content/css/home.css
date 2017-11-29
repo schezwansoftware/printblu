@@ -1,0 +1,361 @@
+.cont_li {
+    font-size: 18px;
+    color: Black;
+}
+.site_logo {
+    padding-top: 15px;
+	margin:0 auto;
+}
+.site_title {
+    padding-top: 20px;
+
+}
+.invest_help {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-family: Lato;
+     padding-top: 35px;
+    font-weight: bold;
+	color: black;
+}
+.invest_help1 {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: Lato;
+    font-weight: bold;
+    color: black;
+}
+.har_logo {
+    padding-top: 10px;
+}
+.social_icons {
+    margin:0 auto;
+	padding-bottom: 5px;
+    padding-top: 10px;
+}
+#Label2 a:hover {
+    color: black;
+}
+.main_first {
+    background-image: url("../investhar/images/bgimg.jpg");
+}
+.upper_slide1 {
+    background-color: #018CCF;
+	 padding-top: 15px;
+	height: 60px;
+    font-size: 18px;
+}
+
+.upper_slide2 {
+    /* padding-left: 55px !important;
+    padding-top: 6px !important;
+     */
+	 padding-top: 15px;
+	 height: 60px;
+    font-size: 18px;
+    background-color: #00B2E7;
+
+}
+/* .upper_slide2 a:hover {
+	background-color: #fab500 !important;
+	 height: 55px;
+    font-size: 18px;
+} */
+.upper_slide3 {
+    padding-top: 15px;
+    font-size: 18px;
+	height: 60px;
+	/*
+    padding-left: 50px !important;
+    padding-top: 6px !important; */
+    background-color: #018CCF;
+}
+/* .upper_slide3 a:hover{
+	background-color: #fed468 !important;
+	 height: 55px;
+    font-size: 18px;
+
+} */
+#Label2 {
+    color: black;
+}
+#Label16 {
+    color: black;
+}
+.upper_slide4 {
+	/* width: 23.8% !important;
+
+    padding-left: 50px !important;
+    padding-top: 6px !important; */
+	height: 60px;
+	font-size: 18px;
+    background-color: #00B2E7;
+    padding-top: 15px;
+}
+/* .upper_slide4 a:hover {
+	 height: 55px;
+    font-size: 18px;
+	background-color: #f7b401 !important;
+} */
+.main_upper {
+    margin-bottom: 5px;
+	margin-left: 0px !important;
+margin-right: 0px !important;
+}
+ .full_form {
+    font-size: 16px;
+    color: #04035F;
+    font-weight: bold;
+}
+.full_form2 {
+    /* text-align: right; */
+     padding-right: 60px;
+    margin-top: -27px;
+    color: black;
+}
+/* .navbar.navbar-default {
+    margin-top: 15px !important;
+} */
+.footer_menu {
+    background: #E4E4E4;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+	padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+
+}
+.india_logo {
+    background-color: #E4E4E4;
+	margin:0 auto;
+   /* padding: 10px;
+     border-radius: 10px;
+    height: 75px;
+    width: 180px;*/
+}
+#Label108 {
+    font-family: lato;
+	font-size: 15px;
+}
+#Label59 {
+    font-family: lato;
+    font-size: 14px !important;
+}
+#Label36 {
+    font-family: lato;
+    font-size: 15px;
+}
+.img-responsive {
+    margin: 0 auto;
+}
+a.nounderline {
+    text-decoration: none !important;
+}
+/*   about haryana css start*/
+.msgs {
+    font-family: lato;
+    font-size: 16px;
+}
+#msgs6 {
+    font-weight: bold;
+    font-family: lato;
+    font-size: 15px !important;
+}
+.about_1 {
+    font-size: 18px;
+    font-family: lato;
+}
+a.about_1 {
+    text-decoration: none !important;
+	color: #028CCD !important;
+}
+.all_colms {
+    border: 2px solid #028CCD;
+    margin: 0 auto !important;
+    background-color: #fff;
+}
+.cm_pic {
+    padding-top: 10px;
+}
+.cm_msgs {
+    background-color: #dddddd;
+    margin: 0 auto !important;
+    padding-top: 10px;
+	margin-bottom: 1em !important;
+	margin-top: 1em !important;
+}
+.aboutbg_color {
+    background-color: #dddddd;
+    border-right: 2px #fff solid !important;
+}
+.fact_har {
+    background-color: #fff;
+	margin: 0 auto !important;
+	margin-top: 1em !important;
+}
+.aboutbg_color2 {
+    border-right: 2px #fff solid !important;
+	font-family:lato !important;
+}
+.fact_scnd {
+    background-color: #fff;
+    margin: 0 auto !important;
+}
+.fact_main {
+    background-color: #fff;
+    margin: 0 auto !important;
+	border-bottom: 2px solid #028CCD;
+}
+.fact_main1 {
+    font-size: 25px;
+    font-family: lato !important;
+    color: #028CCD;
+	padding-left: 10px;
+}
+.har_map {
+    background-color: #fff;
+    margin: 0 auto !important;
+	margin-bottom: 0.5em !important;
+
+}
+.vision_text {
+    font-family: lato;
+    font-size: 17px;
+}
+.vision_txt {
+    background-color: #fff;
+    margin: 0 auto !important;
+}
+
+/*   about haryana css end*/
+
+/*  GOI APPROVALS CSS STARTS*/
+.goi_td_main {
+    border-right: solid 1px #FFFFFF !important;
+    border-bottom: solid 1px #FFFFFF !important;
+    border-top: solid 1px #FFFFFF !important;
+    background-color: #2DAAE4 !important;
+	color: #fff;
+}
+.goi_td_sub {
+    border-right: solid 1px #FFFFFF !important;
+    border-bottom: solid 1px #FFFFFF !important;
+    border-top: solid 1px #FFFFFF !important;
+	font-family: lato !important;
+}
+.spacer {
+    padding-top: 27px !important;
+}
+.spacer1 {
+    padding-top: 27px !important;
+}
+.spacer5 {
+    padding-top: 20px !important;
+}
+.spacer3 {
+    padding-top: 65px !important;
+}
+.heading_goi {
+    text-transform: uppercase;
+    font-family: Lato;
+    color: #2DAAE1;
+    border-bottom: dashed 1px #2DAAE1;
+    margin-bottom: 10px;
+}
+
+/*  GOI APPROVALS CSS END*/
+
+/*  CONTACT-US CSS START*/
+.contact-box1 {
+    border: 2px solid #c0c0c0;
+    box-shadow: 2px 3px 3px #c0c0c0;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 185px;
+	background-color: #fff;
+	font-family: lato !important;
+	margin-bottom: 10px;
+}
+.contact-box2 {
+    border: 2px solid #c0c0c0;
+    box-shadow: 2px 3px 3px #c0c0c0;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 185px;
+	background-color: #fff;
+	font-family: lato !important;
+}
+.contact-box3 {
+    border: 2px solid #c0c0c0;
+    box-shadow: 2px 3px 3px #c0c0c0;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 170px;
+	background-color: #fff;
+	font-family: lato !important;
+	margin-bottom: 10px;
+}
+.contact-box4 {
+    border: 2px solid #c0c0c0;
+    box-shadow: 2px 3px 3px #c0c0c0;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 170px;
+	background-color: #fff;
+	font-family: lato !important;
+}
+
+.contact-box5 {
+    border: 2px solid #c0c0c0;
+    box-shadow: 2px 3px 3px #c0c0c0;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 170px;
+	background-color: #fff;
+	font-family: lato !important;
+	margin-bottom: 10px;
+}
+.heading_contact {
+    text-transform: uppercase;
+    font-family: Lato;
+    margin-bottom: 10px;
+    border-bottom: dashed 1px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+/*  CONTACT-US CSS END*/
+/*  INSENTIVS CSS START*/
+.firstMenubox {
+    background: #fff;
+    border: 1px solid #609bd3;
+    border-radius: 8px;
+	margin-bottom: 15px;
+}
+.blackBox {
+    background: #2C89D9;
+    padding: 7px 0 7px 14px;
+    border-radius: 5px;
+}
+.head_white {
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: lato !important;
+}
+a.head_white {
+    text-decoration: none !important;
+    color: #fff !important;
+}
+a.check_list {
+    text-decoration: none !important;
+    color: #337ab7 !important;
+}
+
+/*  INSENTIVS CSS END*/
+
+
+
+.nav-bar1{
+color:white !important;
+}
