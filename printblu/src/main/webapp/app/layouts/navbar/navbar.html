@@ -1,40 +1,67 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="main_first1">
 <div class="header-1">
-    <div class="container-fluid bgc-r">
+    <div class="container-fluid bg-primary">
         <div class="row">
             <div class="col-md-3 col-xs-12">
-                <p class="font14">Toll  Free  Helpline <br>
-                    1800-180-2132</p>
+                <p class="font14"> <br>
+                    </p>
             </div>
             <div class="col-md-6"></div>
             <div class="col-md-3"></div>
         </div>
     </div>
 </div>
-<nav class="navbar navbar-default" role="navigation">
+
+<!-- <div class="header-2">
+    <div class="container-fluid">
+        <div class="second-box">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="logo-site">
+                        <img src="content/images/Sunrise_logo_orignal.jpg" alt="logo-hepc" title="logo" class="img-responsive center-block">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-main text-center">
+                        <p class="font12">Department of Industries & Commerce, Haryana<br>
+                            Haryana Enterprises Promotion Center</p>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                    <div class="second-logo">
+                        <img src="content/images/logo-gov.jpg" class="img-responsive center-block" alt="logo-gov" title="logogov">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ --><nav class="navbar navbar-inverse" style="margin-bottom: 5px;background:#337ab7;">
     <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" ng-click="vm.toggleNavbar()">
+        <div class="row">
+            <button type="button" class="navbar-toggle" style="background:#337ab7;" ng-click="vm.toggleNavbar()" style="background: #2d7fef">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand logo" href="#/" ng-click="vm.collapseNavbar()">
-                <img class="logo-img" src="content/images/logo-jhipster.png" alt="logo"/>
-                <span data-translate="global.title">Printblu</span> <span class="navbar-version">v{{VERSION}}</span>
-            </a>
-        </div>
-        <div class="navbar-collapse" uib-collapse="vm.isNavbarCollapsed" ng-switch="vm.isAuthenticated()">
-            <ul class="nav navbar-nav navbar-right">
-                <li ui-sref-active="active">
-                    <a ui-sref="home" ng-click="vm.collapseNavbar()">
-                        <span class="glyphicon glyphicon-home"></span>
-                        <span class="hidden-sm" data-translate="global.menu.home">Home</span>
-                    </a>
-                </li>
-                <!-- jhipster-needle-add-element-to-menu - JHipster will add new menu items here -->
-                <li ng-class="{active: vm.$state.includes('entity')}" ng-switch-when="true" uib-dropdown class="dropdown pointer">
-                    <a class="dropdown-toggle" uib-dropdown-toggle href="" id="entity-menu">
+            <div class="navbar-collapse" uib-collapse="vm.isNavbarCollapsed" ng-switch="vm.isAuthenticated()">
+                <ul class="nav navbar-nav navbar-right">
+                    <li ui-sref-active="active">
+                        <a class="nav-bar1" ui-sref="home" ng-click="vm.collapseNavbar()">
+                            <!--<span class="glyphicon glyphicon-home"></span>-->
+                            <span class="hidden-sm" data-translate="global.menu.home">Home</span>
+                        </a>
+                    </li>
+
+                                    <li ng-class="{active: vm.$state.includes('entity')}" ng-switch-when="true" uib-dropdown class="dropdown pointer">
+                    <a class="nav-bar1" uib-dropdown-toggle href="" id="entity-menu">
                         <span>
                             <span class="glyphicon glyphicon-th-list"></span>
                             <span class="hidden-sm" data-translate="global.menu.entities.main">
@@ -48,7 +75,7 @@
                     </ul>
                 </li>
                 <li ng-class="{active: vm.$state.includes('account')}" uib-dropdown class="dropdown pointer">
-                    <a class="dropdown-toggle" uib-dropdown-toggle href="" id="account-menu">
+                    <a class="nav-bar1" uib-dropdown-toggle href="" id="account-menu">
                         <span>
                             <span class="glyphicon glyphicon-user"></span>
                             <span class="hidden-sm" data-translate="global.menu.account.main">
@@ -91,7 +118,7 @@
                     </ul>
                 </li>
                 <li ng-class="{active: vm.$state.includes('admin')}"  ng-switch-when="true" has-authority="ROLE_ADMIN" uib-dropdown class="dropdown pointer">
-                    <a class="dropdown-toggle" uib-dropdown-toggle href="" id="admin-menu">
+                    <a class="nav-bar1" uib-dropdown-toggle href="" id="admin-menu">
                         <span>
                             <span class="glyphicon glyphicon-tower"></span>
                             <span class="hidden-sm" data-translate="global.menu.admin.main">Administration</span>
@@ -139,7 +166,7 @@
                     </ul>
                 </li>
                 <li ui-sref-active="active" uib-dropdown class="dropdown pointer" ng-controller="JhiLanguageController as languageVm">
-                    <a class="dropdown-toggle" uib-dropdown-toggle href="" ng-if="languageVm.languages.length > 1">
+                    <a class="nav-bar1" uib-dropdown-toggle href="" ng-if="languageVm.languages.length > 1">
                         <span>
                             <span class="glyphicon glyphicon-flag"></span>
                             <span class="hidden-sm" data-translate="global.menu.language">Language</span>
@@ -152,7 +179,13 @@
                         </li>
                     </ul>
                 </li>
-            </ul>
+                    <!---Start Menu Bar---->
+                    <!-- jhipster-needle-add-element-to-menu - JHipster will add new menu items here -->
+                    <!--<li><a ui-sref="about" class="nav-bar1" ng-show="isActive('/')">About Us</a></li>-->
+                </ul>
+            </div>
         </div>
     </div>
 </nav>
+</body>
+</html>
