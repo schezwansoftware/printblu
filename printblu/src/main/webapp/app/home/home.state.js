@@ -19,6 +19,11 @@
                     templateUrl: 'app/home/home.html',
                     controller: 'HomeController',
                     controllerAs: 'vm'
+                },
+                'carousel@home':{
+                templateUrl: 'app/layouts/carousel/carousel.html',
+                controller: 'CarouselController',
+                controllerAs: 'vm'
                 }
             },
             resolve: {
